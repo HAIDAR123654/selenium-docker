@@ -12,7 +12,7 @@ pipeline{
 
         stage('Build Image'){
             steps{
-                sh 'docker build -t=haidar123/selenium .'
+                bat 'docker build -t=haidar123/selenium .'
             }
         }
 
